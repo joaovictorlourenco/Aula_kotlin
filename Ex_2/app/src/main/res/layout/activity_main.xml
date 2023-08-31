@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matriz A" />
+
+    <EditText
+        android:id="@+id/matrixA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite os elementos da matriz A (4x6)" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matriz B" />
+
+    <EditText
+        android:id="@+id/matrixB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite os elementos da matriz B (4x6)" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:onClick="calcularMatrizes" />
+
+    <TextView
+        android:id="@+id/matrixSResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matriz S:" />
+
+    <TextView
+        android:id="@+id/matrixDResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matriz D:" />
+</LinearLayout>
